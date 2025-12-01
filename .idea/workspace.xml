@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: add galler component with initial styling">
-      <change afterPath="$PROJECT_DIR$/client/src/components/UserButton/UserButton.jsx" afterDir="false" />
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: finalize Topbar &amp; Sidebar UI styling and implement user button component">
+      <change afterPath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/galleryItem/galleryItem.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/User/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UserButton/userButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/User/user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/topBar/topBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/topBar/topBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/constants/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1764603144993</updated>
-      <workItem from="1764603148141" duration="5775000" />
+      <workItem from="1764603148141" duration="7790000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764623341815</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: finalize Topbar &amp; Sidebar UI styling and implement user button component">
+      <option name="closed" value="true" />
+      <created>1764625177036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764625177036</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +156,7 @@
     <MESSAGE value="feat: add User component with initial styling" />
     <MESSAGE value="feat: add topbar component with initial styling" />
     <MESSAGE value="feat: add galler component with initial styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add galler component with initial styling" />
+    <MESSAGE value="feat: finalize Topbar &amp; Sidebar UI styling and implement user button component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finalize Topbar &amp; Sidebar UI styling and implement user button component" />
   </component>
 </project>
