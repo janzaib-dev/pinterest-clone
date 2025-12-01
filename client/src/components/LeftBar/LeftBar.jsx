@@ -11,6 +11,9 @@ const LeftBar = () => {
                     </a>
                 ))}
             </div>
+            <a href='/'  className={`menuIcon `}>
+                <img src='/general/settings.svg' alt='settings'  />
+            </a>
         </div>
     )
 }

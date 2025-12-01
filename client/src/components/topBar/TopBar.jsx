@@ -1,4 +1,5 @@
-import React from 'react'
+import UserButton from "../UserButton/UserButton.jsx";
+import './topBar.css'
 
 const TopBar = () => {
     return (
@@ -7,7 +8,7 @@ const TopBar = () => {
                 <img src='/general/search.svg' alt='search'/>
             <input type='text' placeholder='Search'/>
             </div>
-
+        <UserButton />
         </div>
     )
 }
