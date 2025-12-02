@@ -1,7 +1,7 @@
 import './app.css'
 import LeftBar from "./components/LeftBar/LeftBar.jsx";
 import TopBar from "./components/topBar/TopBar.jsx";
-import Gallery from "./components/gallery/Gallery.jsx";
+import {Outlet} from "react-router";
 
 const App = () => {
   return (
@@ -10,8 +10,7 @@ const App = () => {
         <LeftBar />
         <div className='content'>
             <TopBar />
-            <Gallery />
-
+            <Outlet/>
         </div>
     </div>
   )

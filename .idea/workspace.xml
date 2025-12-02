@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: finalize Topbar &amp; Sidebar UI styling and implement user button component">
-      <change afterPath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/galleryItem/galleryItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/authPage/authPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/authPage/authPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/createPage/createPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/createPage/createPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/homePage/homePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/homePage/homePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/layouts/MainLayouts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/layouts/mainLayouts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/constants/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LeftBar/LeftBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LeftBar/LeftBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,22 +34,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "janzaib-dev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;janzaib-dev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/janzaib-dev/pinterest-clone.git",
-    "accountId": "9ad2a2a0-9444-4eee-bd07-c57645390f66"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/janzaib-dev/pinterest-clone.git&quot;,
+    &quot;accountId&quot;: &quot;9ad2a2a0-9444-4eee-bd07-c57645390f66&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="36FX9DU8iZnGyIDdf9AdWbATOCC" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
@@ -47,6 +61,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -67,6 +82,7 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -85,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764603144993</updated>
       <workItem from="1764603148141" duration="7790000" />
+      <workItem from="1764706718443" duration="3732000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
