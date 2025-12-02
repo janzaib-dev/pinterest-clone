@@ -1,4 +1,4 @@
-import {sideBarTLinks} from "../../constants/index.js";
+import {sideBarLinks} from "../../constants/index.js";
 import './leftBar.css'
 import {Link} from "react-router";
 
