@@ -175,16 +175,5 @@ export  const dummyImages = [
     width: 1260,
     height: 1260,
   },
-  {
-    id: 26,
-    url: "/pins/pin26.jpeg",
-    width: 1260,
-    height: 1260,
-  },
-  {
-    id: 27,
-    url: "/pins/pin27.jpeg",
-    width: 1260,
-    height: 1260,
-  },
+
 ];
