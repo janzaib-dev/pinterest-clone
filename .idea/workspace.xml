@@ -4,35 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat(react): integrate IKImage for optimized image loading&#10;&#10;- Added IKImage component for React to handle image optimization&#10;- Implemented lazy loading and low-quality placeholders for slow networks&#10;- Replaced regular &lt;img&gt; tags with IKImage across components&#10;- Configured ImageKit endpoint and URL transformation options&#10;- Improved overall performance and loading experience">
-      <change afterPath="$PROJECT_DIR$/client/src/components/PostInteractions/PostInteractions.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/PostInteractions/postInteractions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections/collections.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/collections/collections.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/comments/comments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/comments/comments.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/image/image.jsx" afterDir="false" />
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates">
+      <change afterPath="$PROJECT_DIR$/backend/api.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/board.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/comment.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/pin.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/board.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/comment.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/pin.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/user.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/board.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/comment.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/pin.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/user.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/utils/connectDB.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/LeftBar/LeftBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LeftBar/LeftBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/authPage/authPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/authPage/authPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/authPage/authPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/authPage/authPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/createPage/createPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/createPage/createPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/createPage/createPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/createPage/createPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/layouts/MainLayouts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/layouts/MainLayouts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="a59b948e-9d36-4475-b629-20ab423c2ed1" value="Orange" />
+    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,8 +55,14 @@
     &quot;accountId&quot;: &quot;9ad2a2a0-9444-4eee-bd07-c57645390f66&quot;
   }
 }</component>
+  <component name="HttpClientOnboardingState"><![CDATA[{
+  "isOnboardingCommentShown": true
+}]]></component>
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -72,7 +76,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "HTTP Request.api | #1.executor": "Run",
+    "HTTP Request.api | GET all users.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,10 +94,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="ReactDesignerToolWindowState">
@@ -101,6 +113,39 @@
         <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\portfolio-projects\react\pinterest-clone\backend\routes" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="api | #1" value="STOPPED" />
+              <entry key="api | GET all users" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.api | GET all users">
+    <configuration name="api | GET all users" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/api.http" executionIdentifier="GET all users" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/backend/api.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.api | GET all users" />
+        <item itemvalue="HTTP Request.api | #1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -120,7 +165,7 @@
       <workItem from="1764706718443" duration="6775000" />
       <workItem from="1764761663389" duration="2772000" />
       <workItem from="1764875908932" duration="8019000" />
-      <workItem from="1764923512218" duration="14196000" />
+      <workItem from="1764923512218" duration="25482000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -202,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764877302358</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates">
+      <option name="closed" value="true" />
+      <created>1764946953972</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764946953972</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +273,7 @@
     <MESSAGE value="feat(routes): create dynamic pages and routes&#10;&#10;- Added routes for:&#10;  - Create Page&#10;  - Post Page&#10;  - Profile Page&#10;  - Search Page (dynamic)&#10;  - Auth Page&#10;  - Pin Page&#10;- Created corresponding JSX and CSS files for each page&#10;- Implemented basic folder structure for routing" />
     <MESSAGE value="fix(routes): resolve blank page issue in React Router&#10;&#10;- Corrected dynamic route syntax (/pin/:id instead of /pin:id)&#10;- Updated imports to use react-router-dom&#10;- Ensured MainLayout contains &lt;Outlet /&gt; for nested routes&#10;- Verified all component imports and file names are case-sensitive" />
     <MESSAGE value="feat(react): integrate IKImage for optimized image loading&#10;&#10;- Added IKImage component for React to handle image optimization&#10;- Implemented lazy loading and low-quality placeholders for slow networks&#10;- Replaced regular &lt;img&gt; tags with IKImage across components&#10;- Configured ImageKit endpoint and URL transformation options&#10;- Improved overall performance and loading experience" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(react): integrate IKImage for optimized image loading&#10;&#10;- Added IKImage component for React to handle image optimization&#10;- Implemented lazy loading and low-quality placeholders for slow networks&#10;- Replaced regular &lt;img&gt; tags with IKImage across components&#10;- Configured ImageKit endpoint and URL transformation options&#10;- Improved overall performance and loading experience" />
+    <MESSAGE value="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates" />
   </component>
 </project>
