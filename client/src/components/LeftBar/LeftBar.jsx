@@ -1,6 +1,6 @@
 import {sideBarLinks} from "../../constants/index.js";
 import './leftBar.css'
-import {Link} from "react-router";
+import {Link} from "react-router-dom";
 
 const LeftBar = () => {
     return (
@@ -8,11 +8,14 @@ const LeftBar = () => {
             <div className='menuIcons'>
                 {sideBarLinks.map(link => (
                     <Link to={link.route} key={link.route} className={`menuIcon `}>
+
                         <img src={link.icon} alt={link.text}   className={link.text === 'logo'? 'logo' : ''}  />
+
                     </Link>
                 ))}
             </div>
-            <a href='/'  className={`menuIcon `}>
+
+            <a href='/'   className={`menuIcon `}>
                 <img src='/general/settings.svg' alt='settings'  />
             </a>
         </div>

@@ -1,24 +1,18 @@
 import './galleryItem.css'
-import {Link} from "react-router";
-import {Image} from "@imagekit/react";
+import {Link} from "react-router-dom";
+import Image from "../image/image.jsx";
+
+
 const GalleryItem = ({image}) => {
     const optimizedHeight = (372 * image.height) / image.width
-
     return (
      <div className='galleryItem' style={{gridRowEnd: `span ${Math.ceil(image.height/100)}`}}>
 
          <Image
-             urlEndpoint={import.meta.env.VITE_URL_IK_ENDPOINT}
              src={image.url}
-             transformation={[
-                 {
-                     height: optimizedHeight,
-                     width: 372,
-                 },
-             ]}
+                w='372'
+             h={optimizedHeight}
              alt=""
-             loading="lazy"
-                 lqip={{ active: true, quality: 20,blur:20 }}
          />
          <Link to={`/pin/${image.id}`}  className='overlay'/>
 

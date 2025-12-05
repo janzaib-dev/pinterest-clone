@@ -1,6 +1,6 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
-import {BrowserRouter, Route, Routes} from "react-router";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import MainLayout from "./routes/layouts/MainLayouts.jsx";
 import HomePage from "./routes/homePage/homePage.jsx";
 import CreatePage from "./routes/createPage/createPage.jsx";
@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')).render(
                 <Route element={<MainLayout/>}>
                     <Route path='/' element={<HomePage/>}/>
                     <Route path='/create' element={<CreatePage/>}/>
-                    <Route path='/pin:id' element={<PostPage/>}/>
+                    <Route path='/pin/:id' element={ <PostPage/> } />
                     <Route path='/:username' element={<ProfilePage/>}/>
                     <Route path='/search' element={<SearchPage/>}/>
 
