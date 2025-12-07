@@ -1,14 +1,25 @@
 import express from 'express';
 import userRouter from './routes/user.route.js';
+import pinRouter from './routes/pin.route.js';
 import connectDB from "./utils/connectDB.js";
 
 const app = express();
 
 app.use(express.json());
 
-app.use('/users',userRouter);
+// Basic CORS for local dev
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    if (req.method === 'OPTIONS') return res.sendStatus(200);
+    next();
+});
 
-app.listen(3000,()=>{
-    void connectDB()
+app.use('/users', userRouter);
+app.use('/pins', pinRouter);
+
+app.listen(3000, async () => {
+     connectDB()
     console.log("server is running on port 3000");
 });

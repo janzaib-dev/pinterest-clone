@@ -1,6 +1,14 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {
+    BrowserRouter,
+    Route,
+    Routes
+} from "react-router-dom";
+import {
+    QueryClient,
+    QueryClientProvider,
+} from '@tanstack/react-query'
 import MainLayout from "./routes/layouts/MainLayouts.jsx";
 import HomePage from "./routes/homePage/homePage.jsx";
 import CreatePage from "./routes/createPage/createPage.jsx";
@@ -10,8 +18,13 @@ import SearchPage from "./routes/searchPage/searchPage.jsx";
 import AuthPage from "./routes/authPage/authPage.jsx";
 import './index.css'
 
+const queryClient = new QueryClient();
+
 createRoot(document.getElementById('root')).render(
+
+
     <StrictMode>
+    <QueryClientProvider client={queryClient}>
         <BrowserRouter>
             <Routes>
                 <Route element={<MainLayout/>}>
@@ -25,5 +38,6 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/auth' element={<AuthPage/>}/>
             </Routes>
         </BrowserRouter>
+    </QueryClientProvider>
     </StrictMode>
 )
