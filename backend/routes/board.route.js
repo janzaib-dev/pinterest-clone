@@ -1,10 +1,10 @@
 import express from "express";
-import {test} from "../controllers/board.controller.js";
+import {getUSerBoards,} from "../controllers/board.controller.js";
 
 
 const router = express.Router();
 
 
-router.get('/test',test)
+router.get('/:userId', getUSerBoards)
 
 export default router;

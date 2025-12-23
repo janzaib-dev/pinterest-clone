@@ -35,7 +35,7 @@ const pinSchema = new Schema(
 
         },
         user: {
-            type:     Schema.Types.ObjectId,
+            type:Schema.Types.ObjectId,
             ref:"User",
             required: true
 
@@ -45,4 +45,4 @@ const pinSchema = new Schema(
     {timestamps: true}
 )
 
-export default mongoose.model('Pins', pinSchema)
+export default mongoose.model('Pin', pinSchema)

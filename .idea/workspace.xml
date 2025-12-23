@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions">
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="search module">
+      <change afterPath="$PROJECT_DIR$/client/src/utils/apiRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/board.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/board.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/pin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/pin.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/pin.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/pin.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/board.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/board.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/pin.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/pin.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/collections/collections.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/boards/boards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/collections/collections.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/boards/boards.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +118,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\portfolio-projects\react\pinterest-clone\client\src\utils" />
       <recent name="E:\portfolio-projects\react\pinterest-clone\backend\routes" />
     </key>
   </component>
@@ -163,7 +176,7 @@
       <workItem from="1764923512218" duration="25576000" />
       <workItem from="1765014849663" duration="10308000" />
       <workItem from="1765712695169" duration="5321000" />
-      <workItem from="1766489189011" duration="290000" />
+      <workItem from="1766489189011" duration="11060000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -269,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765115841621</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="search module">
+      <option name="closed" value="true" />
+      <created>1766489571376</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766489571376</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +311,7 @@
     <MESSAGE value="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates" />
     <MESSAGE value="feat: added models, controllers, and routes for all backend APIs&#10;&#10;- Created models for each module&#10;- Implemented controllers with core logic&#10;- Added routes for all API endpoints&#10;- Improved backend structure for scalability" />
     <MESSAGE value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
+    <MESSAGE value="search module" />
+    <option name="LAST_COMMIT_MESSAGE" value="search module" />
   </component>
 </project>
