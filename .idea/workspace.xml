@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/utils/seed.js" afterDir="false" />
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api.http" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/pin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/pin.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/pin.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/pin.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/galleryItem/GalleryItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/topBar/TopBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,38 +63,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.api | #1.executor": "Run",
-    "HTTP Request.api | GET all Pins.executor": "Run",
-    "HTTP Request.api | GET all users.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.api | GET all Pins.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.api | GET all users.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -169,7 +161,9 @@
       <workItem from="1764761663389" duration="2772000" />
       <workItem from="1764875908932" duration="8019000" />
       <workItem from="1764923512218" duration="25576000" />
-      <workItem from="1765014849663" duration="7305000" />
+      <workItem from="1765014849663" duration="10308000" />
+      <workItem from="1765712695169" duration="5321000" />
+      <workItem from="1766489189011" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -267,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764969057812</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions">
+      <option name="closed" value="true" />
+      <created>1765115841621</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765115841621</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +289,7 @@
     <MESSAGE value="feat(react): integrate IKImage for optimized image loading&#10;&#10;- Added IKImage component for React to handle image optimization&#10;- Implemented lazy loading and low-quality placeholders for slow networks&#10;- Replaced regular &lt;img&gt; tags with IKImage across components&#10;- Configured ImageKit endpoint and URL transformation options&#10;- Improved overall performance and loading experience" />
     <MESSAGE value="feat: complete styling and page creation for auth, create post, and profile pages; fix bugs and minor updates" />
     <MESSAGE value="feat: added models, controllers, and routes for all backend APIs&#10;&#10;- Created models for each module&#10;- Implemented controllers with core logic&#10;- Added routes for all API endpoints&#10;- Improved backend structure for scalability" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added models, controllers, and routes for all backend APIs&#10;&#10;- Created models for each module&#10;- Implemented controllers with core logic&#10;- Added routes for all API endpoints&#10;- Improved backend structure for scalability" />
+    <MESSAGE value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
   </component>
 </project>
