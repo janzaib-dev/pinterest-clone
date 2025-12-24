@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: create board API and integrate board data fetching">
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: fetch post comments with user relation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/comment.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/comment.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/comment.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/comment.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/comment.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/comment.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/comments/comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/comments/comments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/UserButton/UserButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/UserButton/UserButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/authPage/authPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/authPage/authPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/apiRequest.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/apiRequest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +169,7 @@
       <workItem from="1765014849663" duration="10308000" />
       <workItem from="1765712695169" duration="5321000" />
       <workItem from="1766489189011" duration="13373000" />
-      <workItem from="1766565016122" duration="6155000" />
+      <workItem from="1766565016122" duration="12609000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -297,11 +299,30 @@
       <option name="project" value="LOCAL" />
       <updated>1766566066143</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: fetch post comments with user relation">
+      <option name="closed" value="true" />
+      <created>1766572251386</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766572251386</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add responsive sidebar component with dynamic menu links" />
@@ -321,6 +342,7 @@
     <MESSAGE value="search module" />
     <MESSAGE value="feat(backend): complete post page and user profile page implementation" />
     <MESSAGE value="feat: create board API and integrate board data fetching" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create board API and integrate board data fetching" />
+    <MESSAGE value="feat: fetch post comments with user relation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fetch post comments with user relation" />
   </component>
 </project>
