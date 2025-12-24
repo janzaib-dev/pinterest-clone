@@ -23,7 +23,6 @@ const PostPage = () => {
         if(error) return "Something went wrong..." + error.message;
         if(!data) return "Pin Not Found"
 
-
     return (
         <div className="postPage">
             <svg
@@ -56,7 +55,7 @@ const PostPage = () => {
                         />
                         <span>{data.user.displayName}</span>
                     </Link>
-                    <Comments/>
+                    <Comments id={data._id}/>
                 </div>
             </div>
         </div>

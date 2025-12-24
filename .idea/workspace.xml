@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat(backend): complete post page and user profile page implementation">
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat: create board API and integrate board data fetching">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/pin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/pin.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/comment.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/comment.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/comment.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/comment.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/comment.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/comment.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/comments/comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/comments/comments.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +167,7 @@
       <workItem from="1765014849663" duration="10308000" />
       <workItem from="1765712695169" duration="5321000" />
       <workItem from="1766489189011" duration="13373000" />
-      <workItem from="1766565016122" duration="930000" />
+      <workItem from="1766565016122" duration="6155000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -286,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766502697170</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: create board API and integrate board data fetching">
+      <option name="closed" value="true" />
+      <created>1766566066143</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766566066143</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +320,7 @@
     <MESSAGE value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
     <MESSAGE value="search module" />
     <MESSAGE value="feat(backend): complete post page and user profile page implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): complete post page and user profile page implementation" />
+    <MESSAGE value="feat: create board API and integrate board data fetching" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: create board API and integrate board data fetching" />
   </component>
 </project>

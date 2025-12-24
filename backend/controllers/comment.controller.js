@@ -1,1 +1,12 @@
-export const test = (req, res) => res.json('hello from controller')
+import Comment from "../models/comment.model.js";
+import "../models/user.model.js";
+
+
+export const getPostComments = async (req, res) => {
+    const { postId } = req.params;
+    const comments = await Comment.find({ pin: postId })
+        .populate("user", "username img displayName")
+        .sort({ createdAt: -1 });
+
+    res.status(200).json(comments);
+};
