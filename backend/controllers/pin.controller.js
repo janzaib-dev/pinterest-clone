@@ -7,7 +7,8 @@ export const getPins = async (req, res) => {
         const pageNumber = +req.query.cursor || 0;
         const LIMIT = 21
         const search = req.query.search;
-        const userId = req.query.userID;
+        const userId = req.query.userId;
+        const boardId = req.query.boardId;
 
 
         const pins = await Pin
@@ -20,8 +21,9 @@ export const getPins = async (req, res) => {
                     }
                 }, {tags: {$in: [search]}}],
 
-            } :userId? {user:userId}
-            :{})
+            } : userId ? {user: userId}
+                : boardId ? {board: boardId}
+                    : {})
             .limit(LIMIT)
             .skip(pageNumber * LIMIT);
 

@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="search module">
-      <change afterPath="$PROJECT_DIR$/client/src/utils/apiRequest.js" afterDir="false" />
+    <list default="true" id="e73eaf07-96c6-4def-b879-cf2a5e4fb05c" name="Changes" comment="feat(backend): complete post page and user profile page implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/board.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/board.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/pin.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/pin.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/pin.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/pin.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/board.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/board.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/pin.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/pin.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/user.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/collections/collections.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/boards/boards.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/collections/collections.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/boards/boards.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/postPage/postPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/profilePage/profilePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes/searchPage/searchPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +163,8 @@
       <workItem from="1764923512218" duration="25576000" />
       <workItem from="1765014849663" duration="10308000" />
       <workItem from="1765712695169" duration="5321000" />
-      <workItem from="1766489189011" duration="11060000" />
+      <workItem from="1766489189011" duration="13373000" />
+      <workItem from="1766565016122" duration="930000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add responsive sidebar component with dynamic menu links">
       <option name="closed" value="true" />
@@ -290,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766489571376</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(backend): complete post page and user profile page implementation">
+      <option name="closed" value="true" />
+      <created>1766502697170</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766502697170</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +308,7 @@
     <MESSAGE value="feat: added models, controllers, and routes for all backend APIs&#10;&#10;- Created models for each module&#10;- Implemented controllers with core logic&#10;- Added routes for all API endpoints&#10;- Improved backend structure for scalability" />
     <MESSAGE value="feat: integrate React Query for fetching pins and add infinite scroll functionality&#10;&#10;- Implemented React Query infinite query for loading pins&#10;- Added backend pagination support for continuous data fetching&#10;- Connected UI with infinite scrolling behavior&#10;- Improved loading and error states&#10;- Refactored pin API calls into reusable functions" />
     <MESSAGE value="search module" />
-    <option name="LAST_COMMIT_MESSAGE" value="search module" />
+    <MESSAGE value="feat(backend): complete post page and user profile page implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(backend): complete post page and user profile page implementation" />
   </component>
 </project>
